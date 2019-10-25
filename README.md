@@ -15,6 +15,10 @@ When copying the working site content from TEST via FTP and uploading it to the 
 
 When creating a new App Service Plan and Web App in Azure and doing a 'import profile', still the same issue.
 
+Deleted and recreated the App Service Plan for PROD usign the ARM template in the build street, no luck.
+
+Hosting the build on a Windows Server VM with ISS, does WORK.
+
 When creating the a clean test project I choose a NetCore2.2 MVC application, and added a Class assembly with NetStandard2. 
 Referenced it to the MVC project. FTP published this to the PROD Web App, but this does WORK.
 Added all nuget dependencies from the original solution and it still WORKS.
